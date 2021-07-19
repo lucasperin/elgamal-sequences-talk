@@ -1,0 +1,84 @@
+% Latex template: mahmoud.s.fahmy@students.kasralainy.edu.eg
+% For more details: https://www.sharelatex.com/learn/Beamer
+
+\documentclass{beamer}					% Document class
+
+\usepackage[english]{babel}				% Set language
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\mode<presentation>						% Set options
+{
+  \usetheme{default}					% Set theme
+  \usecolortheme{default} 				% Set colors
+  \usefonttheme{default}  				% Set font theme
+  \setbeamertemplate{caption}[numbered]	% Set caption to be numbered
+  \beamertemplatenavigationsymbolsempty
+}
+
+\usepackage{graphicx}					% For including figures
+\usepackage{booktabs}					% For table rules
+\usepackage{hyperref}					% For cross-referencing
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{newtxtext, newtxmath}
+\usepackage[natbib, style=apa]{biblatex}
+\addbibresource{references.bib}
+
+\input{macros.tex}
+
+% \title{Comparing balanced \texorpdfstring{$\mathbb{Z}_v$}{Zv}-sequences obtained from \\
+% ElGamal function to random balanced sequences}
+\title{Randomness properties of $\mathbb{Z}_v$ ElGamal sequences}
+\author{
+Daniel Panario\texorpdfstring{$^*$}{*} \and 
+Lucas Pandolfo Perin\texorpdfstring{$^\dagger$}{\dag} \and 
+Brett Stevens\texorpdfstring{$^*$}{*}}
+\institute{\texorpdfstring{$^*$}{*}Carleton University --- Canada \\ 
+\texorpdfstring{$^\dagger$}{\dag}Universidade Federal de Santa Catarina --- Brazil \\
+\texorpdfstring{$^\dagger$}{\dag}Technical Innovation Institute --- United Arab Emirates}
+\date{2020-08-05}
+
+% Uncomment this to have the outline at the beginning of each section highlighted.
+%\AtBeginSection[]
+%{
+%  \begin{frame}{Outline}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{Contextualization}
+    \input{sections/contextualization}
+
+\section{Bounds for random \texorpdfstring{$v$}{v}-ary sequences}
+    \input{sections/randomsequences}
+    
+\section{Bounds for ElGamal \texorpdfstring{$v$}{v}-ary sequences}
+    \input{sections/elgamalsequences}
+    
+\section{Experimental results}
+    \input{sections/experimentalresults}
+    
+\section{Final Remarks}
+    \input{sections/finalremarks}
+    
+\section{References}
+
+
+\begin{frame}[allowframebreaks]{References}
+	\tiny
+    % \bibliography{references}
+	\printbibliography
+\end{frame}
+
+\end{document}
