@@ -3,6 +3,8 @@
 
 \documentclass{beamer}					% Document class
 
+\usepackage{tikz}
+	\usetikzlibrary{math}
 \usepackage[english]{babel}				% Set language
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -24,6 +26,38 @@
 \usepackage{newtxtext, newtxmath}
 \usepackage[natbib, style=apa]{biblatex}
 \addbibresource{references.bib}
+
+
+
+%\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+%\newtheorem{definition}{Definition}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{corollary}{Corollary}
+%\newtheorem{example}{Example}
+\newtheorem*{remark}{Remark}
+\newtheorem*{assumption}{Assumption}
+
+\def\f{\mathbb{F}}
+\def\fp{\mathbb{F}_{p}}
+\def\fq{\mathbb{F}_{q}}
+\def\R{\mathbb{R}}
+\def\N{\mathbb{N}}
+\def\z{\mathbb{Z}}
+\def\zp{\mathbb{Z}_p}
+\def\zpx{\mathbb{Z}_p^*}
+\def\fpx{\mathbb{F}_p^*}
+\def\rem{ \% }
+%\def\rem{\mbox{ rem }}
+\def\a{\underline{a}}
+\def\b{\underline{b}}
+\def\c{\underline{c}}
+
+\def\VAR{ \mbox {VAR} }
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+
+\newcommand{\subseq}[3]{#1[_{#2}^{#3}}
+\newcommand{\cardinality}[1]{\#{#1}}
 
 \input{macros.tex}
 
@@ -62,7 +96,8 @@ Brett Stevens\texorpdfstring{$^*$}{*}}
 
 \section{Bounds for random \texorpdfstring{$v$}{v}-ary sequences}
     \input{sections/randomsequences}
-    
+
+
 \section{Bounds for ElGamal \texorpdfstring{$v$}{v}-ary sequences}
     \input{sections/elgamalsequences}
     
@@ -82,3 +117,12 @@ Brett Stevens\texorpdfstring{$^*$}{*}}
 \end{frame}
 
 \end{document}
+
+
+%%%Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% eval: (TeX-PDF-mode 1)
+%%% ispell-local-dictionary: "en_CA"
+%%% eval: (flyspell-mode 1)
+%%%End:
