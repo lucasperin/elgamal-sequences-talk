@@ -1,25 +1,27 @@
 
     \begin{frame}{Balance}
 
-      The number of $x \equiv i \mod v$ in $[1,p-1]$ is
-      \[ \lceil (p-1 - ((i-1) \bmod v))/v\rceil\]
-
 \begin{proposition} \label{balancedproperty}
 Let $\pi$ be a permutation in $\zpx$, then $\pi_v$ is a balanced 
 sequence over $\z_v$ if and only if $v \mid p-1$.
 \end{proposition}
-      
+\begin{proof}
+  
+      The number of $x \equiv a \mod v$ in $[1,p-1]$ is
+      \[  |\pi_v|_a = \lceil (p-1 - ((a-1) \bmod v))/v\rceil\]
+
+  \end{proof}
       \end{frame}
 
 
       \begin{frame}{Period}
 
         \begin{lemma} \label{lemma_near_balanced_period}
-If $p \equiv \alpha \neq 1 \Mod v$, then $\pi_v$ has period $N =p-1$ for any $\pi: \zpx \rightarrow \zpx$.
+If $p \equiv \alpha \neq 1 \Mod v$, then $\pi_v$ has period $N =p-1$ for any $\pi$ permutation of $\zpx$.
 \end{lemma}
 \begin{proof}
 
-  The difference in the number of occurences of any two symbols must be a multiple of $(p-1)/N$. But   
+  The difference in the number of occurrences of any two symbols must be a multiple of $(p-1)/N$. But   
   \[
     |\pi_v|_a = \begin{cases} \lceil (p-1)/v \rceil &  0 \leq a < \alpha -1, \\
       \lfloor (p-1)/v \rfloor & \mbox{otherwise}.
@@ -33,7 +35,7 @@ If $p \equiv \alpha \neq 1 \Mod v$, then $\pi_v$ has period $N =p-1$ for any $\p
 
 
 \begin{theorem}For every $\epsilon >0 $ there exists an $n_{\epsilon}$ so that for 
-  all $p \geq n_{\epsilon}$, the number $T$ of permutations $\pi_v$ with period 
+  all $p \geq n_{\epsilon}$, the number $T$ of balanced sequences $\pi_v$ with period 
   $p-1$ satisfies 
   \begin{equation} \label{T_bound_epsilon}
     (p-1)!(1-\epsilon) \leq T \leq (p-1)!.
@@ -47,7 +49,7 @@ If $p \equiv \alpha \neq 1 \Mod v$, then $\pi_v$ has period $N =p-1$ for any $\p
 
   When $q$ is prime and $p=vq+1$,
   \[
-    (p-1)! - T = v!(q!)^v 
+    \frac{(p-1)! - T}{(p-1)!} = \frac{v!(q!)^v}{(p-1)!} 
     \]
 
     This includes the case of Sophie Germain primes.
@@ -100,13 +102,91 @@ If $p \equiv \alpha \neq 1 \Mod v$, then $\pi_v$ has period $N =p-1$ for any $\p
       \]
 
 \[
-  \sum_{\mathbf{k} \in \mathbb{N}^t} a_n(k)x^{\mathbf k} = \sum_{z',z'' \in \z_v^t} C_{z',z''} T^{n}_{z',z''}.
+  \sum_{\mathbf{k} \in \mathbb{N}^t} a_n({\mathbf k})x^{\mathbf k} = \sum_{z',z'' \in \z_v^t} C_{z',z''} T^{n}_{z',z''}.
 \]
       
 \end{frame}
 
 
+\begin{frame}{Asymptotic Normality}
+
+  \begin{theorem}[Bender, Richmond, Williamson 1983] 
+Suppose $a_n(k)$ is admissible at 1 for $n \equiv n_0 \Mod d$ and that 
+$\Lambda$ is d-dimensional. Then $a_n(k)$ satisfies a central limit theorem 
+for $n \equiv n_0 \Mod d$ with means and covariance matrix asymptotically 
+proportional to $n$.  Let $q$ be such that $qc \in \Lambda$ for all 
+$c \in \z^v$.  Then $a_n(k)$ satisfies a local limit theorem modulo 
+$\Lambda$ for $n \equiv n_0 \Mod {dq}$
+\end{theorem}
+  
+\end{frame}
+
+\begin{frame}{Asymptotic Normality}
+
+  \begin{theorem}
+Let $z \in \z_v^t$ and $t(\kappa)$ be the number of balanced circular sequences 
+of length $n$ over $\z_v$ for which $\lambda(z) = \kappa$. 
+There exists a $m_{\lambda},b_{\lambda},c_{\lambda} \in \R$ such that
+  \[
+    \sup_{\kappa} \left |\frac{\sqrt{2\pi b_{\lambda}}t(\kappa)}{\binom{vl}{l,l,\ldots,l}}-c_{\lambda} e^{(\kappa-m_{\lambda})^2/b_{\lambda}} \right| = o(1). 
+  \]
+Let $b \in \z_v$, $t \in \N$ and $r(\kappa)$ be the number of balanced circular 
+sequences of length $n$ over $\z_v$ for which $\rho(b,t) = \kappa$. 
+There exists a $m_{\rho},b_{\rho},c_{\rho} \in \R$ such that
+  \[
+    \sup_{\kappa} \left |\frac{\sqrt{2\pi b_{\rho}}r(\kappa)}{\binom{vl}{l,l,\ldots,l}}-c_{\rho} e^{(\kappa-m_{\rho}^2)/b_{\rho}} \right | = o(1). 
+  \]
+\end{theorem}
+  
+\end{frame}
  	
+\begin{frame}{Mean for tuples}
+ 
+\begin{multline*}
+  \frac{n}{v^t}\left( 1 + \frac{- (t^2 - 2tv + v^2 - t)(v - 1)}{2n} \right ) +O\left(\frac{1}{n}\right) \\
+  \leq  E(\lambda(z)) \leq  \\
+  \frac{n}{v^t} \left(1 + \frac{t(v-1)}{2n}\right) +  O\left(\frac{1}{n}\right)
+\end{multline*}
+
+  \end{frame}
+ 	
+\begin{frame}{Variance for tuples}
+ 
+  \begin{multline*}
+    \frac{n}{v^{2t}} \left( \frac{2v^t}{2} + \frac{-12t^2v^t}{24n} \right) + O\left(\frac{1}{n}\right)\\
+    \lesssim    \VAR(\lambda) \lesssim \\
+    \frac{n}{v^{2t}} \left( \frac{2v^t(v+1)}{2(v-1)} + \frac{12v^{t+2}t}{24n(v-1)} \right) + O\left(\frac{1}{n}\right)
+\end{multline*}
+  \end{frame}
+
+
+ 	
+\begin{frame}{Runs}
+
+\begin{align*}
+     E(\rho(b,t)) &= \frac{(l(v-1)-1)(v-1)l(l)_t}{(n-1)_{t+1}}, \\   
+  \VAR(\rho(b,t)) &= \frac{(l(v-1)-1)(v-1)l(l)_t}{(n-1)_{t+1}} \\
+    & + \frac{(v-1)l(l)_{2t}(l(v-1)-1)^2(l(v-1)-2)}{(n-1)_{2t+2}} \\
+    & - \left(\frac{(l(v-1)-1)(v-1)l(l)_t}{(n-1)_{t+1}}\right)^2 .
+\end{align*}
+Where $l = n/v$.
+\end{frame}  
+
+
+	
+\begin{frame}{Runs}
+
+\begin{align*}
+E(\rho(b,t)) &= \frac{n(v-1)}{v^{t+2}} \left((v-1) 
+               - \frac{(v-1)^2t^{2} -(v+3)(v-1)t +2}{2n}\right) \\
+  &\qquad + O\left (\frac{1}{n}\right)\\
+  \VAR(\rho(b,t)) &\approx \frac{n(v-1)^2}{v^{t+2}} \left(1 
+     + \frac{-(v-1)t^2}{2n}\right) + O\left(\frac{1}{n}\right)
+\end{align*}
+
+
+
+\end{frame} 
 
 %%% Local Variables:
 %%% TeX-master: "../main.tex"

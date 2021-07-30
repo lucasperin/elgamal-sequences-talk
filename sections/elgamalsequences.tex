@@ -1,0 +1,237 @@
+
+\begin{frame}{Balance}
+
+\begin{proposition} \label{balancedproperty}
+Let $\pi$ be a permutation in $\zpx$, then $\pi_v$ is a balanced 
+sequence over $\z_v$ if and only if $v \mid p-1$.
+\end{proposition}
+
+  
+\end{frame}
+
+\begin{frame}{Period}
+
+\begin{theorem}
+The ElGamal sequence $\gamma_v$ has period $N = p-1$.
+\end{theorem}
+
+\begin{proof}
+  \begin{enumerate}
+  \item $p \not\equiv 1 \Mod v$:  Use Balance
+  \item $p \equiv 1 \Mod v$: Suppose period $N < p-1$: $g^{i+N}\rem p \equiv_v g^i \rem p$ 
+  \item Let $i=0$:  $g' = g^N\rem p  \equiv_v 1$.
+  \item Let $p = kg'+r$, $x = k+1$ ($p < xg' < 2p$). Let $i = \log_g(x)$:
+    \[x \equiv_v xg'\rem p = xg'-p \equiv_v xg' -1\]
+  \item $x (g'-1) \equiv_v 1 \equiv_v g'$ is a contradiction.
+\end{enumerate}
+\end{proof}
+
+  
+\end{frame}
+
+\begin{frame}{Tuples}
+
+  
+\begin{theorem}\label{elgamal_tuple}
+  Let $\gamma_v$ be an ElGamal sequence and $p = q g^{t-1} + r$, then
+  \[
+     \left \lfloor \frac{g}{v} \right \rfloor^{t-1} 
+     \left \lfloor\frac{q}{v} \right \rfloor 
+\leq \lambda(z) 
+\leq \left \lceil \frac{g}{v} \right \rceil^{t-1} 
+     \left(\left \lfloor\frac{q}{v} \right\rfloor +1 \right).
+  \]
+\end{theorem}
+
+
+
+  
+\end{frame}
+
+\begin{frame}{Proof}
+  \[
+    X = \left \{x \in [1,p-1]: (g^i x) \rem p \equiv_v z_i, 0 \leq i < t \right \}
+    \]
+
+Let $c_i = g^{i}z_{0} - z_{i}$, $0 \leq i < t$.
+  \[
+    D = \{d \in \z^t:d_0 = 0,  d_i \equiv_v \alpha^{-1}c_i\mbox{ and } 
+          gd_{i-1} \leq d_i < g(d_{i-1}+1) \mbox{ for } 0 < i < t  \}.
+  \]
+  For $d \in D$, let\[
+    X_{d} = \left \{x \in \z: x \equiv_v z_0,\; \frac{d_{i}p}{g^i} 
+    \leq x < \frac{(d_{i}+1)p}{g^i}, \mbox{ for } 0 \leq i < t \right \}.
+  \]
+ 
+  \begin{align*}
+\mbox{\Large Claim:         } \hspace{3cm} &   X = \bigcup_{d \in D} X_d & \hspace{4cm}
+  \end{align*}
+
+
+\end{frame}
+
+\begin{frame}{$X_d \subset X$}
+
+If $x \in X_{d}$, then $x \equiv_v z_0$ and 
+  \[
+    d_{i}p \leq g^ix < (d_{i}+1)p 
+  \]
+  Thus 
+  \begin{align*}
+    g^ix \rem  p &= g^ix-d_{i}p 
+                \equiv_v g^ix-\alpha d_i 
+                \equiv_v g^iz_0 - c_i 
+                \equiv_v g^iz_0 - (g^iz_0 - z_i) = z_i,
+  \end{align*}
+
+  So $x \in X$.
+
+
+
+\end{frame}
+
+\begin{frame}{$X \subset \cup X_d$}
+
+  For $x \in X$, define $g^ix = q_ip + r_i$:
+\begin{align*}
+&  q_0 = 0 \\
+&  r_i = g^ix - q_ip = (g^ix) \rem p \equiv_v z_i \\
+&  \frac{q_{i}p}{g^i} \leq x < \frac{(q_{i}+1)p}{g^i}
+  \end{align*}
+
+  So $x \in X_{(q_0,\ldots,q_{t-1})}$
+
+
+
+\end{frame}
+
+\begin{frame}{$X \subset \cup X_d$}
+
+
+  \begin{align*}
+    q_i &\equiv_v \alpha^{-1}q_ip  
+          = \alpha^{-1}(g^ix - r_i )
+          \equiv_v \alpha^{-1}(g^iz_0 - z_i) = \alpha^{-1}c_i.
+  \end{align*}
+Then,
+  \begin{align*}
+    q_i &= \frac{g^ix-r_i}{p} = \frac{g(g^{i-1}x)-r_i}{p}
+          = \frac{g(q_{i-1}p+r_{i-1}) - r_i}{p} \\
+        &= gq_{i-1} + g\frac{r_{i-1}}{p} -\frac{r_i}{p} 
+          < g(q_{i-1}+1),
+  \end{align*}
+and
+  \[
+  gq_{i-1} = \frac{gq_{i-1}p}{p} \leq \frac{g(q_{i-1}p+r_{i-1})}{p} 
+           = \frac{g(g^{i-1}x)}{p} = \frac{g^ix}{p} = q_i + \frac{r_i}{p}.
+  \]
+Since $gq_{i-1}, q_{i} \in \mathbb{Z}$ and $r_{i}/p < 1$, $\Rightarrow q_{i} \geq g q_{i-1}$.
+
+Thus  $(q_0,\ldots,q_{t-1}) \in D$.
+
+
+\end{frame}
+
+\begin{frame}{Final step}
+
+  \begin{align*} 
+    X = \bigcup_{d \in D}X_d &= \bigcup_{d \in D} \left (\{x \equiv_v z_0 \} \bigcap 
+        \left( \bigcap_{0 \leq i < t} \left \{\frac{d_ip}{g^i} 
+                               \leq x < \frac{(d_i+1)p}{g^i} \right\} \right) \right). \\
+    &=  \bigcup_{d \in D}
+    \left (   \{x \equiv_v z_0 \} \cap \left \{\frac{d_{t-1}p}{g^{t-1}} 
+    \leq x < \frac{(d_{t-1}+1)p}{g^{t-1}} \right \}\right). 
+  \end{align*}
+
+  \[
+    \begin{array}{rcccl}
+    \lfloor g/v \rfloor^{t-1}  &\leq &\cardinality{D} &\leq& \lceil g/v \rceil^{t-1} \\
+    q &\leq &\cardinality{[d_{t-1}p/g^{t-1},(d_{t-1}+1)p/g^{t-1})} &\leq &q+1 \\
+      \lfloor q/v \rfloor &\leq& \cardinality{X_d} &\leq& \lceil (q+1)/v \rceil
+                            \end{array}
+   \]
+
+  \[
+     \left \lfloor \frac{g}{v} \right \rfloor^{t-1} 
+     \left \lfloor\frac{q}{v} \right \rfloor 
+\leq \lambda(z) 
+\leq \left \lceil \frac{g}{v} \right \rceil^{t-1} 
+     \left(\left \lfloor\frac{q}{v} \right\rfloor +1 \right).
+   \]
+  
+\qed
+   
+\end{frame}
+
+\begin{frame}{Observations}
+
+  \begin{itemize}
+  \item When $g=mv$ bounds differ by at most $m^t$
+    \item When $g=v$, $\left \lfloor\frac{q}{v} \right \rfloor \leq \lambda(z) \leq   
+      \left \lfloor\frac{q}{v} \right\rfloor +1$
+    \item If $p \geq v g^{t-1}$ and $g \geq v$, then $\lambda(z) > 0$ for all $z \in \z_v^t$
+    \item If $\lambda(z) > 0$ for all $z \in \z_v^t$, then $g \geq v$ and $p \geq v^t+1$.
+    \item Coincide when $g=v$
+      \item $\gamma_v(i+1) \equiv_v g\gamma_v(i)- s$ for some $ 0 \leq s < g$.
+    \end{itemize}
+  
+\end{frame}
+
+\begin{frame}{Runs}
+\begin{theorem}\label{elgamal_run}
+Let $\gamma_v$ be an ElGamal sequence and $p = q g^{t-1} + r$.  For $z \in \z_v^t$, let 
+  \[
+    \mu(z) = \cardinality{\{ i \in [1,p-1]:\; g^{i+j}\rem p \equiv_v z_j,\; 0 \leq j < t-1,
+                    \; g^{i+t-1}\rem p \not\equiv_v z_{t-1}\}}.
+                \]
+                Then
+  \[
+    \left \lfloor \frac{g}{v} \right \rfloor^{t-2} \left \lfloor \frac{(v-1)g}{v} \right \rfloor \left \lfloor\frac{q}{v} \right \rfloor \leq \mu(z) \leq  \left \lceil \frac{g}{v} \right \rceil^{t-2} \left \lceil \frac{(v-1)g}{v} \right \rceil\left(\left \lfloor\frac{q}{v} \right\rfloor +1 \right).
+  \]
+\end{theorem}
+  
+\end{frame}
+
+\begin{frame}{Corollary}
+
+  Let $p = q_t g^{t} + r_t$ and $p = q_{t+1} g^{t+1} + r_{t+1}$.  Then
+\begin{multline*}
+\left \lfloor \frac{g}{v} \right \rfloor^{t-1}\left \lfloor \frac{(v-1)g}{v} \right \rfloor \left \lfloor \frac{q_t}{v}\right \rfloor - \left \lceil \frac{g}{v} \right \rceil^{t}\left \lceil \frac{(v-1)g}{v} \right \rceil \left \lceil \frac{q_{t+1}+1}{v} \right \rceil  \\
+\leq  \rho(b,t) \leq \\
+\left \lceil \frac{g}{v} \right \rceil^{t-1}\left \lceil \frac{(v-1)g}{v} \right \rceil \left \lceil \frac{q_{t}+1}{v} \right \rceil - \left \lfloor \frac{g}{v} \right \rfloor^{t}\left \lfloor \frac{(v-1)g}{v} \right \rfloor \left  \lfloor \frac{q_{t+1}}{v} \right \rfloor,
+\end{multline*}
+and
+  \[
+    (v-1) \left \lfloor \frac{g}{v} \right \rfloor^{t} \left \lfloor \frac{(v-1)g}{v} \right \rfloor\left \lfloor\frac{q}{v} \right \rfloor \leq \rho(b,t) \leq  (v-1)\left \lceil \frac{g}{v} \right \rceil^{t}\left \lceil \frac{(v-1)g}{v} \right \rceil \left \lceil\frac{q+1}{v} \right\rceil.
+  \]
+  
+\end{frame}
+
+\begin{frame}{Comparison to random balanced sequences}
+
+  \begin{itemize}
+  \item Periodicity matches
+  \item To first order, the number of tuples and runs matches
+  \item To first order $\rho(b,t) \approx v \rho(b,t+1)$
+  \end{itemize}
+  
+  
+\end{frame}
+
+\begin{frame}{}
+
+  
+\end{frame}
+
+\begin{frame}{}
+
+  
+\end{frame}
+
+
+
+
+
+%%% Local Variables:
+%%% TeX-master: "../main.tex"
+%%% End:

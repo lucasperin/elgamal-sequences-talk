@@ -8,7 +8,7 @@
     \begin{itemize}
         \item Started in 2016 as a research challenge by Joachim von zur Gathen;
         \item Boppré and Perin wrote a report with experimental analysis;
-        \item By 2017, Ana and Joachim wrote the Sidon Set part and submited to arxiv.
+        \item By 2017, Ana and Joachim wrote the Sidon Set part and submitted to arxiv.
         \item In 2020, the paper was published in Cryptologia.
     \end{itemize}
 \end{frame}
@@ -93,9 +93,13 @@ Example: Let $p =5$, then $2$ and $3$ are generators of G = $\Z_p^\times$.
 \end{frame}
 
 \begin{frame}{ElGamal Sequences}
-    \begin{itemize}
-        \item Comparing balanced $\mathbb{Z}_v$-sequences obtained from ElGamal function to random balanced sequences~\cite{elgamalsequences}
-    \end{itemize}
+
+An {\em ElGamal sequence} is obtained by reducing an ElGamal permutation modulo $v$:
+  
+  \[\gamma_v = ((g^0\rem p)\rem v,(g^1\rem p)\rem v,(g^2\rem p)\rem v,(g^3\rem p)\rem v,\ldots)\]
+
+  How closely do these sequences compare to random balanced sequences over $\mathbb{Z}_v$?
+
 \end{frame}
 
 \begin{frame}{Randomness properties}
@@ -110,7 +114,7 @@ Example: Let $p =5$, then $2$ and $3$ are generators of G = $\Z_p^\times$.
 
 
 \begin{frame}{ElGamal Run ratio Experiment}
-    Show experiment with ratio against expected from golomb's postulates
+    Show experiment with ratio against expected from Golomb's postulates
 \end{frame}
 
 
