@@ -17,11 +17,13 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{ElGamal Sequences tuples lower and upper bounds}
+
+\begin{frame}{ElGamal Sequences $t$-tuple bound gap distribution}
     \begin{columns}
         \begin{column}{0.45\textwidth}
         \begin{center}
-            All primes.
+            Lower bound $\lambda(z)$ >0\\
+            $t =2$ and $12\%$ outliers.
         \end{center}
             \begin{figure}
                 \centering
@@ -30,7 +32,8 @@
         \end{column}
         \begin{column}{0.45\textwidth}
         \begin{center}
-            $g = v$ primes.
+            Upper bound \\
+            $t = 2$ and $5\%$ outliers
         \end{center}
             \begin{figure}
                 \centering
@@ -39,24 +42,92 @@
         \end{column}
     \end{columns}
     \begin{center}
-                Distribution of $\rho(t+1)v/\rho(t)$ as a heatmap
+                Distribution of gaps between $\lambda(z)$ and lower and upper bounds.
     \end{center}
 \end{frame}
 
-\begin{frame}{ElGamal Sequences tuples lower and upper bounds}
-    \begin{tabular}{ccc}
-        a & Lower bounds & Upper bound \\
-        $t = 2$ & 
-        \includegraphics[width=0.3\textwidth]{figures/LB0t2with012outliers.png} &
-        \includegraphics[width=0.3\textwidth]{figures/UBt2with005outliers.png} \\
-        $t = 7$ & 
-        \includegraphics[width=0.3\textwidth]{figures/LB0t7with5975outliers.png} &
-        \includegraphics[width=0.3\textwidth]{figures/UBt7with9356outliers.png} 
-    \end{tabular}
+
+\begin{frame}{ElGamal Sequences $t$-tuple bound gap distribution}
+    \begin{columns}
+        \begin{column}{0.45\textwidth}
+        \begin{center}
+            Lower bound $\lambda(z)$ >0\\
+            $t =2$ and $59.75\%$ outliers.
+        \end{center}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{figures/LB0t7with5975outliers.png}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.45\textwidth}
+        \begin{center}
+            Upper bound \\
+            $t = 2$ and $93.56\%$ outliers
+        \end{center}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{figures/UBt7with9356outliers.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
     \begin{center}
-                Distribution of $\rho(t+1)v/\rho(t)$ as a heatmap
+                Distribution of gaps between $\lambda(z)$ and lower and upper bounds.
     \end{center}
 \end{frame}
+
+\begin{frame}{ElGamal Sequences $t$-tuple bound accuracy}
+    \begin{columns}
+        \begin{column}{0.45\textwidth}
+        \begin{center}
+            Lower bound
+        \end{center}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{figures/TuplesLowerBoundAccuracy.png}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.45\textwidth}
+        \begin{center}
+            Upper bound 
+        \end{center}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{figures/TuplesUpperBoundAccuracy.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
+    \begin{center}
+                Percentage of trials with $z\in\mathbb{Z}_v^t$ s.t. $\lambda(z)$ matches lower and upper bounds.
+    \end{center}
+\end{frame}
+
+
+\begin{frame}{ElGamal Sequences run bound accuracy}
+    \begin{columns}
+        \begin{column}{0.45\textwidth}
+        \begin{center}
+            Lower bound
+        \end{center}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{figures/RunsLowerBoundAccuracygisv.png}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.45\textwidth}
+        \begin{center}
+            Upper bound 
+        \end{center}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{figures/RunsUpperBoundAccuracy.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
+    \begin{center}
+                Percentage of trials with $b\in\mathbb{Z}_v$ s.t. $\rho(b,t)$ matches lower and upper bounds.
+    \end{center}
+\end{frame}
+
 
 
 \begin{frame}{ElGamal Sequences run ratio Experiment}
@@ -81,7 +152,7 @@
         \end{column}
     \end{columns}
     \begin{center}
-                Distribution of $\rho(t+1)v/\rho(t)$ as a heatmap with $2 \leq v \leq 8$
+                Distribution of $\rho(t+1)v/\rho(t)$ as a heat map with $2 \leq v \leq 8$
     \end{center}
 \end{frame}
 
