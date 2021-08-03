@@ -4,7 +4,19 @@
 For $p$ prime, $\Z_p^* = \{1, \ldots, p-1\}$ is a cyclic group of order $p-1$ under multiplication. For $g$ a generator, the ElGamal map $\gamma = g^x: \Z_p^* \rightarrow \Z_p^*$ is a permutation
 \vspace{1cm}
 
+\begin{itemize}
+\item The ElGamal function is the basis of the ElGamal Signature Scheme
+  \item The ElGamal function used in the Welch construction of Costas Arrays
+  \end{itemize}
 
+  
+\end{frame}
+
+
+
+
+\begin{frame}{Research challenge}
+  
 In 2016 Joachim von zur Gathen posed this research challenge:
 
 \begin{center}
@@ -100,7 +112,30 @@ Example: The generators of $\Z_5^*$ are  $2$ and $3$.
 
 
 \begin{frame}{Results with Sidon Sets}
+  Let $S = \{(x,g^x): x \in \mathbb{Z}_p^*\}$ be the graph of the ElGamal permutation. Because $S$ is a Sidon Set,
+
+  \begin{theorem}[Niehues, von zur Gathen, P, Zumalac\'{a}rregui, 2020]
+    Let
+    \[
+      B = [h_1,\ldots, h_2] \times [k_1,\ldots k_2] \subset \mathbb{Z}_p^* \times \mathbb{Z}_p.
+    \]
+    Then
+    \[
+      \left | \cardinality{S \cup B} - \frac{\cardinality{B}}{p} \right | \leq 50 p^{1/2} \log^2 p
+\]
+    \end{theorem}
 \end{frame}
+
+\begin{frame}{Other randomness properties}
+
+  \begin{itemize}
+  \item Drakakkis et al. prove the ElGamal function is {\em Almost Perfect Nonlinear}
+    \item Closer to PN than most APN functions in differential uniformity
+    \item More linear than most Costas functions on a log-ratio test
+      \item Less linear than random functions with a phase modulation test 
+    \end{itemize}
+  
+  \end{frame}
 
 
 
@@ -142,4 +177,28 @@ Example: The generators of $\Z_5^*$ are  $2$ and $3$.
   
   \end{frame}
 
+  \begin{frame}{Other uses of Modulo operator in sequences}
 
+    \begin{itemize}
+      \item The Legendre sequence
+      \[
+(\log_g(i) \rem 2, \log_g(i+1) \rem 2, \ldots )      
+        \]
+      \item  Colbourn constructed covering arrays from the circulant matrix
+      \[
+(\log_g(i) \rem v, \log_g(i+1) \rem v, \ldots )      
+        \]
+      \item Tzanakis et al. formed covering array from circulant matrices of
+        \[
+(\log_g( tr(g^i)) \rem v, \log_g( tr(g^{i+1})) \rem v, \ldots )      
+        \]
+      \end{itemize}
+    
+    \end{frame}
+
+
+  
+
+%%% Local Variables:
+%%% TeX-master: "../main.tex"
+%%% End:

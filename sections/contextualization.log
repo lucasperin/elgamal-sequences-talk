@@ -1,0 +1,1752 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.10)  3 AUG 2021 14:25
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**\input contextualization.tex
+ (./contextualization.tex
+
+./contextualization.tex:2: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{frame}{ElGamal Permutations}
+                                       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--3
+[][] 
+ []
+
+
+./contextualization.tex:4: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 F
+     or $p$ prime, $\Z_p^* = \{1, \ldots, p-1\}$ is a cyclic group of order ...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+./contextualization.tex:4: Undefined control sequence.
+<recently read> \Z 
+                   
+l.4 For $p$ prime, $\Z
+                      _p^* = \{1, \ldots, p-1\}$ is a cyclic group of order ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+./contextualization.tex:4: Undefined control sequence.
+l.4 ...enerator, the ElGamal map $\gamma = g^x: \Z
+                                                  _p^* \rightarrow \Z_p^*$ i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./contextualization.tex:4: Undefined control sequence.
+l.4 ...al map $\gamma = g^x: \Z_p^* \rightarrow \Z
+                                                  _p^*$ is a permutation
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--6
+[]
+ []
+
+
+Overfull \hbox (5.03125pt too wide) in paragraph at lines 4--6
+\OML/cmm/m/it/10 p$
+ []
+
+
+Overfull \hbox (15.17786pt too wide) in paragraph at lines 4--6
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (45.03114pt too wide) in paragraph at lines 4--6
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; [] ; p \OMS/cmsy/m/n/10 ^
+^@
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 4--6
+\OT1/cmr/m/n/10 1\OMS/cmsy/m/n/10 g$
+ []
+
+
+Overfull \hbox (12.80905pt too wide) in paragraph at lines 4--6
+\OML/cmm/m/it/10 p \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 4--6
+\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (5.12846pt too wide) in paragraph at lines 4--6
+\OML/cmm/m/it/10 g$
+ []
+
+
+Overfull \hbox (16.28836pt too wide) in paragraph at lines 4--6
+\OML/cmm/m/it/10 ^^M \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (34.9634pt too wide) in paragraph at lines 4--6
+\OML/cmm/m/it/10 g[] \OT1/cmr/m/n/10 :[]\OMS/cmsy/m/n/10 ![]$
+ []
+
+
+./contextualization.tex:8: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 I
+     n 2016 Joachim von zur Gathen posed this research challenge:
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+[]
+ []
+
+
+./contextualization.tex:10: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \begin{center}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--10
+[] 
+ []
+
+./contextualization.tex:11: Undefined control sequence.
+l.11   {\Large
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no H in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ? in font nullfont!
+
+Overfull \hbox (29.78143pt too wide) in paragraph at lines 12--13
+ \OML/cmm/m/it/10 ^^M\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = 
+ []
+
+
+Overfull \hbox (10.1632pt too wide) in paragraph at lines 12--13
+ \OML/cmm/m/it/10 g[]$ 
+ []
+
+
+./contextualization.tex:21: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...rame}{Cycle sizes in ElGamal Permutations}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+./contextualization.tex:22: Undefined control sequence.
+<recently read> \Z 
+                   
+l.22 Example: The generators of $\Z
+                                   _5^*$ are  $2$ and $3$.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 21--23
+[][]
+ []
+
+
+Overfull \hbox (4.59723pt too wide) in paragraph at lines 21--23
+[]$
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--23
+\OT1/cmr/m/n/10 2$
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--23
+\OT1/cmr/m/n/10 3$ 
+ []
+
+
+./contextualization.tex:24: LaTeX Error: Environment columns undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24     \begin{columns}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./contextualization.tex:25: LaTeX Error: Environment column undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25         \begin{column}
+                           {0.45\textwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./contextualization.tex:25: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25         \begin{column}{0
+                             .45\textwidth}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+./contextualization.tex:25: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.25         \begin{column}{0.45\textwidth}
+                                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./contextualization.tex:25: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.25         \begin{column}{0.45\textwidth}
+                                           
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+./contextualization.tex:36: LaTeX Error: \begin{frame} on input line 21 ended b
+y \end{column}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36         \end{column}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./contextualization.tex:37: LaTeX Error: Environment column undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37         \begin{column}
+                           {0.45\textwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+./contextualization.tex:37: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.37         \begin{column}{0.45\textwidth}
+                                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./contextualization.tex:37: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.37         \begin{column}{0.45\textwidth}
+                                           
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+./contextualization.tex:48: LaTeX Error: \begin{frame} on input line 21 ended b
+y \end{column}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48         \end{column}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./contextualization.tex:49: LaTeX Error: \begin{frame} on input line 21 ended b
+y \end{columns}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49   \end{columns}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--50
+[]
+ []
+
+
+Overfull \hbox (63.51057pt too wide) in paragraph at lines 25--50
+[]
+ []
+
+
+Overfull \hbox (60.17719pt too wide) in paragraph at lines 25--50
+[]
+ []
+
+./contextualization.tex:51: Undefined control sequence.
+l.51   \pause
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./contextualization.tex:52: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52   \begin{itemize}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 52--52
+[] 
+ []
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (5.12846pt too wide) in paragraph at lines 53--54
+\OML/cmm/m/it/10 g$
+ []
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (5.12846pt too wide) in paragraph at lines 54--55
+\OML/cmm/m/it/10 g$
+ []
+
+
+./contextualization.tex:59: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \begin{frame}{$p = 1009$}
+                              
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./contextualization.tex:62: Undefined control sequence.
+l.62   \includegraphics
+                       [height=0.4\textwidth]{figures/graph_0011_1009.pdf}\\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+./contextualization.tex:62: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.62   \includegraphics[height=0.4\textwidth]
+                                             {figures/graph_0011_1009.pdf}\\...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./contextualization.tex:62: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.62   \includegraphics[height=0.4\textwidth]
+                                             {figures/graph_0011_1009.pdf}\\...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+./contextualization.tex:62: Missing $ inserted.
+<inserted text> 
+                $
+l.62 ...phics[height=0.4\textwidth]{figures/graph_
+                                                  0011_1009.pdf}\\[-1cm]
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+l.62 ....4\textwidth]{figures/graph_0011_1009.pdf}
+                                                  \\[-1cm]
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./contextualization.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./contextualization.tex:62: Extra }, or forgotten $.
+<inserted text> }
+                 
+l.62 ...idth]{figures/graph_0011_1009.pdf}\\[-1cm]
+                                                  
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 24 strings out of 481239
+ 515 string characters out of 5920377
+ 240563 words of memory out of 5000000
+ 15392 multiletter control sequences out of 15000+600000
+ 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,14n,15p,242b,166s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+./contextualization.tex:62:  ==> Fatal error occurred, no output PDF file produ
+ced!

@@ -1,10 +1,9 @@
 (TeX-add-style-hook
- "contextualization"
+ "experimentalresults"
  (lambda ()
    (setq TeX-command-extra-options
          "-file-line-error -shell-escape")
-   (LaTeX-add-labels
-    "tab:xmap1"
-    "tab:xmap2"))
+   (TeX-run-style-hooks
+    "tables/table2"))
  :latex)
 
