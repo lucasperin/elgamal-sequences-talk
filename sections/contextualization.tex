@@ -16,13 +16,11 @@
 
 \begin{frame}{ElGamal Permutations}
 
-\begin{center}
-    Let 
-    $$G = \Z_p^* = \{1, \ldots, p-1\}$$
-    be a cyclic group of order $d =p-1$ $p$ prime and
-    $$\Z_d = \{0, \ldots, d-1\}$$
-\end{center}
-
+    Let $ G = \Z_p^* = \{1, \ldots, p-1\}$ be a cyclic group of order $d =p-1$,
+    
+    $p$ prime, and $\Z_d = \{0, \ldots, d-1\}$
+    \vspace{10pt}
+    
     \pause
     \begin{itemize}
         \item ElGamal signatures use $G = \{ g^x : x\in \Z_d\}$, where $g$ is a generator of $G$;
@@ -35,9 +33,7 @@
 
 \begin{frame}{ElGamal Permutations}
 
-\begin{center}
 Since want to investigate permutations of $G$, we introduce the following notation.
-\end{center}
 \vspace{10pt}
 
 \begin{minipage}{.5\textwidth}
@@ -106,7 +102,7 @@ Example: Let $p =5$, then $2$ and $3$ are generators of G = $\Z_p^*$.
       \item Distinct $g$ affect the cyclic structures.
   \end{itemize}
   
-  We will consider the $*$ implicit from now on and simply use $g^x$.
+  We will consider the $\star$ implicit from now on and simply use $g^x$ or $g^x \rem p$.
   
 \end{frame}
 
@@ -115,7 +111,7 @@ Example: Let $p =5$, then $2$ and $3$ are generators of G = $\Z_p^*$.
     \begin{figure}
         \centering
         \includegraphics[width=0.7\textwidth]{figures/graph_0011_1009.pdf}
-        \caption{$p = 1009 and g = 17$}
+        \caption{$p = 1009$ and $g = 17$}
         \label{fig:smiley}
     \end{figure}
 \end{frame}
@@ -202,12 +198,12 @@ Example: Let $p =5$, then $2$ and $3$ are generators of G = $\Z_p^*$.
     \begin{itemize}
         \item Balance
         \item Period length
-        \item Distribution of \emph{tuples} of length $t$  
-        $$\lambda(z) = \cardinality{\{i \in [0,p-1]: \sigma(i+_{n} \iota) = z(\iota),\; 0 \leq \iota < t\}}$$
-        \item  Distribution of \emph{runs} of length $t$
+        \item Distribution of fixed $t$-\emph{tuples} $z\in\mathbb{Z}_v^t$:
+        $$\lambda(z) = \cardinality{\{i \in [0,p-1]: \gamma_v(i+_{n} \iota) = z(\iota),\; 0 \leq \iota < t\}}$$
+        \item  Distribution of \emph{runs} of $b\in\mathbb{Z}_v$ and of length $t$:
         \begin{align*}
             \rho(b,t) = & \cardinality{ \{i \in [0,p-1]: }\\
-                        &\sigma(i-_{n} 1),\sigma(i+_n t) \neq b = \sigma(i+_n\iota),\; 0 \leq \iota < t\}
+                        &\gamma_v(i-_{n} 1),\gamma_v(i+_n t) \neq b = \gamma_v(i+_n\iota),\; 0 \leq \iota < t\}
         \end{align*}
         % $\rho(b,t) = \cardinality{ \{i \in [0,p-1]: \sigma(i-_{n} 1),\sigma(i+_n t) \neq b = \sigma(i+_n\iota),\; 0 \leq \iota < t\}}$
     \end{itemize}
@@ -239,11 +235,48 @@ Example: Let $p =5$, then $2$ and $3$ are generators of G = $\Z_p^*$.
 
 
 \begin{frame}{ElGamal Run ratio Experiment}
-    Show experiment with ratio against expected from Golomb's postulates
+    If we consider $\rho(t)$ as the occurrences of all runs of length $t$, we expect that 
+    $$ \rho(t+1)/\rho(t) = \frac{1}{v} $$
+    from Golomb's postulates of randomness.
 \end{frame}
 
+\begin{frame}{ElGamal Sequences run ratio Experiment}
+    \begin{columns}
+        \begin{column}{0.45\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{figures/AllDataNormalizedrunratio.png}
+                \caption{Distribution of $\rho(t+1)v/\rho(t)$ as a heatmap}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.45\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{figures/AllDataAndvisGenNormalizedrunratio.png}
+                \caption{Distribution of $\rho(t+1)v/\rho(t)$ with $v = g$ as a heatmap}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
 
-
+\begin{frame}{ElGamal Sequences run ratio Experiment}
+    \begin{columns}
+        \begin{column}{0.45\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{figures/v2Normalizedrunratio.png}
+                \caption{Distribution of $\rho(t+1)v/\rho(t)$ and $v = 2$ as a heatmap}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.45\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{figures/v2AndvisGenNormalizedrunratio.png}
+                \caption{Distribution of $\rho(t+1)v/\rho(t)$ with $v = g = 2$ as a heatmap}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
  	
 
 %%% Local Variables:
