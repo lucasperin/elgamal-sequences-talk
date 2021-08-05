@@ -20,18 +20,22 @@ For $p$ prime, $\Z_p^* = \{1, \ldots, p-1\}$ is a cyclic group of order $p-1$ un
 In 2016 Joachim von zur Gathen posed this research challenge:
 
 \begin{itemize}
-    \item DDH assumption ($g^a, g^b, g^{ab}$): $a,b \overset{?}{\gets} \mathbb{Z}_p^*$ then $g^{ab}$ \emph{looks U.R.}
-    \item Given a DDH triple, finding $a,b$ is hard.
+    \item Let $a,b,c \overset{?}{\gets} \mathbb{Z}_p^*$.
+    \item DDH assumption: ($g^a, g^b, g^{ab}$) $\sim$ ($g^a, g^b, g^c$)
 \end{itemize}
 
 \pause
+\vspace{10pt}
 \begin{center}
     {\Large
-        How random is the pair ($x, g^x$) when $x \overset{?}{\gets} \mathbb{Z}_p^*$?
+        How random is the ElGamal map?
+        
+        Is $ (x, g^x) \sim  (x, x')$  when $x,x' \overset{?}{\gets} \mathbb{Z}_p^*$?
     }
 \end{center}
 
 \pause
+\vspace{10pt}
     We proceed showing some evidence from (Niehues et al., 2020)
 
 \end{frame}
@@ -39,7 +43,7 @@ In 2016 Joachim von zur Gathen posed this research challenge:
 
 
 
-\begin{frame}{Cycle sizes in ElGamal Permutations}
+\begin{frame}{Cycles in ElGamal Permutations}
 Example: The generators of $\Z_5^*$ are  $2$ and $3$.
 
     \begin{columns}
