@@ -1,7 +1,7 @@
 
 \begin{frame}{ElGamal Permutations}
 
-For $p$ prime, $\Z_p^* = \{1, \ldots, p-1\}$ is a cyclic group of order $p-1$ under multiplication. For $g$ a generator, the ElGamal map $\gamma = g^x: \Z_p^* \rightarrow \Z_p^*$ is a permutation
+For $p$ prime, $\Z_p^* = \{1, \ldots, p-1\}$ is a cyclic group of order $p-1$ under multiplication. For $g$ a generator, the ElGamal map $x \to g^x$ from $\Z_p^*$ to $\Z_p^*$ is a permutation
 \vspace{1cm}
 
 \begin{itemize}
@@ -16,14 +16,23 @@ For $p$ prime, $\Z_p^* = \{1, \ldots, p-1\}$ is a cyclic group of order $p-1$ un
 
 
 \begin{frame}{Research challenge}
-  
+
 In 2016 Joachim von zur Gathen posed this research challenge:
 
+\begin{itemize}
+    \item DDH assumption ($g^a, g^b, g^{ab}$): $a,b \overset{?}{\gets} \mathbb{Z}_p^*$ then $g^{ab}$ \emph{looks U.R.}
+    \item Given a DDH triple, finding $a,b$ is hard.
+\end{itemize}
+
+\pause
 \begin{center}
-  {\Large
-How random is the map $\gamma(x) = g^x$?}
+    {\Large
+        How random is the pair ($x, g^x$) when $x \overset{?}{\gets} \mathbb{Z}_p^*$?
+    }
 \end{center}
 
+\pause
+    We proceed showing some evidence from (Niehues et al., 2020)
 
 \end{frame}
 
@@ -59,6 +68,7 @@ Example: The generators of $\Z_5^*$ are  $2$ and $3$.
     	    \end{tabular}
         \end{column}
   \end{columns}
+  \vspace{1cm}
   
   \pause
   \begin{itemize}
@@ -114,7 +124,7 @@ Example: The generators of $\Z_5^*$ are  $2$ and $3$.
 \begin{frame}{Results with Sidon Sets}
   Let $S = \{(x,g^x): x \in \mathbb{Z}_p^*\}$ be the graph of the ElGamal permutation. Because $S$ is a Sidon Set,
 
-  \begin{theorem}[Niehues, von zur Gathen, P, Zumalac\'{a}rregui, 2020]
+  \begin{theorem}[Niehues et al., 2020]
     Let
     \[
       B = [h_1,\ldots, h_2] \times [k_1,\ldots k_2] \subset \mathbb{Z}_p^* \times \mathbb{Z}_p.
@@ -140,6 +150,13 @@ Example: The generators of $\Z_5^*$ are  $2$ and $3$.
 
 
 \begin{frame}{Sequences from permutations}
+    \begin{center}
+        {\Large
+            How random sequences?
+        }
+    \end{center}
+    
+    \pause
     For any  permutation $\pi$ in $\mathbb{Z}_p^*$, make a sequence
     \[
         \pi_v = (\pi_1 \rem v, \ldots, \pi_{p-1}\rem v).
